@@ -5,18 +5,15 @@
 for (var i = 1; i <= 100; i++) {
   if (i %3 == 0 && i %5 == 0) {
     console.log("FizzBuzz");
-    fizzbuzz = "FizzBuzz"
-      document.getElementById('fizzbuzz').innerHTML += "<li>" + fizzbuzz + "</li>"
+    fizzbuzz = "FizzBuzz";
+      document.getElementById('fizzbuzz').innerHTML += "<li>" + fizzbuzz + "</li>";
   } else if (i %5 == 0) {
-    console.log("Buzz");
     buzz = "Buzz"
-      document.getElementById('fizzbuzz').innerHTML += "<li>" + buzz + "</li>"
+      document.getElementById('fizzbuzz').innerHTML += "<li>" + buzz + "</li>";
   } else if (i %3 == 0) {
-    console.log("Fizz");
     fizz = "Fizz";
-      document.getElementById('fizzbuzz').innerHTML += "<li>" + fizz + "</li>"
+      document.getElementById('fizzbuzz').innerHTML += "<li>" + fizz + "</li>";
   } else {
-    console.log(i);
-      document.getElementById('fizzbuzz').innerHTML += "<li>" + i + "</li>"
+      document.getElementById('fizzbuzz').innerHTML += "<li>" + i + "</li>";
   }
 }
